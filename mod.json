@@ -1,0 +1,63 @@
+{
+	"geode": "4.1.0",
+	"gd": {
+		"win": "2.2074"
+	},
+	"id": "rainixgd.livesingd",
+	"name": "Lives In GD",
+	"version": "v1.0.0",
+	"developer": "rainixgd",
+	"description": "",
+	"resources": {
+		"spritesheets": {
+			"assets": [ "assets/*.png" ]
+		},
+		"files": [
+			"assets/sound.mp3"
+		]
+	},
+	"settings": {
+		"lives-count": {
+			"name": "Lives Count",
+			"type": "int",
+			"default": 3,
+			"min": 1,
+			"max": 10
+		},
+		"frames-per-life": {
+			"name": "Frames per life",
+			"type": "int",
+			"default": 250,
+			"min": 1,
+			"max": 10000,
+			"control": {
+				"slider": true
+			}
+		},
+		"sound-effect-volume": {
+			"name": "Sound Effect Volume (%)",
+			"type": "float",
+			"min": 0,
+			"max": 200,
+			"default": 100,
+			"control": {
+				"slider": true
+			}
+		},
+		"bg-pulse-opacity": {
+			"name": "BG Pulse Opacity",
+			"type": "float",
+			"default": 150,
+			"min": 1,
+			"max": 255,
+			"control": {
+				"slider": true
+			}
+		},
+		"shake": {
+			"name": "Enable Shake",
+			"type": "bool",
+			"default": true
+		}
+	}
+}
