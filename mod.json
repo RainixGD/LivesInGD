@@ -1,13 +1,23 @@
 {
 	"geode": "4.1.0",
 	"gd": {
-		"win": "2.2074"
+		"win": "2.2074",
+		"android": "2.2074"
 	},
 	"id": "rainixgd.livesingd",
 	"name": "Lives In GD",
 	"version": "v1.0.0",
 	"developer": "rainixgd",
-	"description": "",
+	"description": "sugoma",
+	"links": {
+		"community": "https://discord.gg/Me4zGgW33M"
+	},
+	"tags": [
+		"gameplay",
+		"offline",
+		"content",
+		"universal"
+	],
 	"resources": {
 		"spritesheets": {
 			"assets": [ "assets/*.png" ]
