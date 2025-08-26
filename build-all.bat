@@ -9,12 +9,12 @@ echo Creating merge folder...
 mkdir merge
 
 echo Copying files into merge...
-copy .\build\rainixgd.livesingd.geode .\merge\rainixgd.livesingd.geode
-copy .\build-android32\rainixgd.livesingd.geode .\merge\android32.geode
-copy .\build-android64\rainixgd.livesingd.geode .\merge\android64.geode
+copy .\build\rainixdev.livesingd.geode .\merge\rainixdev.livesingd.geode
+copy .\build-android32\rainixdev.livesingd.geode .\merge\android32.geode
+copy .\build-android64\rainixdev.livesingd.geode .\merge\android64.geode
 
 echo Running geode package...
-geode package merge .\merge\rainixgd.livesingd.geode .\merge\android32.geode .\merge\android64.geode
+geode package merge .\merge\rainixdev.livesingd.geode .\merge\android32.geode .\merge\android64.geode
 
 del .\merge\android32.geode
 del .\merge\android64.geode

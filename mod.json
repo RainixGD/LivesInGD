@@ -1,14 +1,14 @@
 {
-	"geode": "4.1.0",
+	"geode": "4.4.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074"
 	},
-	"id": "rainixgd.livesingd",
+	"id": "rainixdev.livesingd",
 	"name": "Lives In GD",
 	"version": "v1.0.0",
-	"developer": "rainixgd",
-	"description": "sugoma",
+	"developer": "rainixdev",
+	"description": "With this mod you won't die from the first touch of a spike. it integrates a customizable life system that will make the game easier.",
 	"links": {
 		"community": "https://discord.gg/Me4zGgW33M"
 	},
@@ -16,7 +16,8 @@
 		"gameplay",
 		"offline",
 		"content",
-		"universal"
+		"universal",
+		"cheat"
 	],
 	"resources": {
 		"spritesheets": {
