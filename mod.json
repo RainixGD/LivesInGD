@@ -10,13 +10,13 @@
 	"developer": "rainixdev",
 	"description": "With this mod you won't die from the first touch of a spike. it integrates a customizable life system that will make the game easier.",
 	"links": {
-		"community": "https://discord.gg/Me4zGgW33M"
+		"community": "https://discord.gg/Me4zGgW33M",
+		"source": "https://github.com/RainixGD/LivesInGD"
 	},
 	"tags": [
 		"gameplay",
 		"offline",
 		"content",
-		"universal",
 		"cheat"
 	],
 	"resources": {
