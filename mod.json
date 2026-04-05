@@ -1,14 +1,14 @@
 {
-	"geode": "4.8.0",
+	"geode": "5.5.3",
 	"gd": {
-		"win": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081",
+		"android": "2.2081"
 	},
 	"id": "rainixdev.livesingd",
 	"name": "Lives In GD",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"developer": "rainixdev",
 	"description": "With this mod you won't die from the first touch of a spike. it integrates a customizable life system that will make the game easier.",
 	"links": {

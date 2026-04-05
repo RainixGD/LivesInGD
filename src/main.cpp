@@ -38,23 +38,23 @@ $execute{
 	LivesManager::getInstance()->bgPulseOpacity = Mod::get()->getSettingValue<double>("bg-pulse-opacity");
 	LivesManager::getInstance()->shake = Mod::get()->getSettingValue<bool>("shake");
 
-	listenForSettingChanges("frames-per-life", [](int64_t value) {
+	listenForSettingChanges<int64_t>("frames-per-life", [](int64_t value) {
 		LivesManager::getInstance()->maxFramesPerLife = value;
 	});
 
-	listenForSettingChanges("lives-count", [](int64_t value) {
+	listenForSettingChanges<int64_t>("lives-count", [](int64_t value) {
 		LivesManager::getInstance()->startNumberOfLives = value;
 	});
 
-	listenForSettingChanges("sound-effect-volume", [](double value) {
+	listenForSettingChanges<double>("sound-effect-volume", [](double value) {
 		LivesManager::getInstance()->soundEffectVolume = value;
 	});
 
-	listenForSettingChanges("bg-pulse-opacity", [](double value) {
+	listenForSettingChanges<double>("bg-pulse-opacity", [](double value) {
 		LivesManager::getInstance()->bgPulseOpacity = value;
 	});
 	
-	listenForSettingChanges("shake", [](bool value) {
+	listenForSettingChanges<bool>("shake", [](bool value) {
 		LivesManager::getInstance()->shake = value;
 	});
 }
